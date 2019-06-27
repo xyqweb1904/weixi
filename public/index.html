@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width:device-width,initial-scale=1"/>
+    <!--
+       width=device-width:设置视口宽度为屏幕宽度
+      initial-scale=1 设置视口宽度能否缩放 1/1.0 代表不缩放
+    -->
+    <!--引入4个文件，必须注意导入顺序-->
+    <link rel="stylesheet" href="../../css/bootstrap.css"/>
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/popper.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <!--
+       这时有先后顺序，先引入jquery
+    -->
+    <title>首页</title>
+    <link rel="stylesheet" href="../css/index.css"/>
+</head>
+<body>
+<div>
+    <head>
+        <div class="head">
+            <div class="head_main">
+                <div class="head_main_left">
+                    <img src="../img/activity-img/1.gif" alt="link"/>
+                </div>
+                <div class="head_main_center">
+                    <ul>
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">艺术品</a></li>
+                        <li><a href="#">活动</a></li>
+                        <li><a href="#">艺术商店</a></li>
+                        <li><a href="#"> VIP服务</a></li>
+                    </ul>
+                </div>
+                <div class="head_main_right">
+                    <input type="text" id="" placeholder="艺术品" class="p-1"/>
+                </div>
+            </div>
+        </div>
+    </head>
+    <div>
+        <img src="../img/index-img/02.png" alt=""/>
+    </div>
+    <!-- 图片展示层-->
+    <div class="img">
+        <p class="text-center">ARTISTIC WORKS</p>
+        <p class="text-center"><span class="color_span">【</span>艺术作品<span class="color_span">】</span></p>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#img1" data-toggle="tab">热<span class="text_color">门H</span>OT</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#img2" data-toggle="tab">新品NEW</a></li>
+        </ul>
+        <div class="tab-content mt-5">
+            <div class="tab-pane active" id="img1">
+                <img src="../img/index-img/16.png" alt=""/>
+                <img src="../img/index-img/05.png" alt=""/>
+                <img src="../img/index-img/10.png" alt=""/>
+                <img src="../img/index-img/07.png" alt=""/>
+                <img src="../img/index-img/13.png" alt=""/>
+            </div>
+            <div class="tab-pane"  id="img2">其他内容</div>
+
+        </div>
+        <div class="more_div">
+            <img src="../img/index-img/24.png" alt=""/>
+        </div>
+    </div>
+
+    <!-- 图片第二层-->
+    <div class="img_tow">
+        <div class="img_two_p">
+                <p class="text-center">ART TOPICS</p>
+                <p class="text-center"><span class="color_span">【</span>艺术专题<span class="color_span">】</span></p>
+        </div>
+         <div class="img_tow_show">
+             <img src="../img/index-img/37.png" alt=""/>
+             <img src="../img/index-img/27.png" alt=""/>
+             <img src="../img/index-img/29.png" alt=""/>
+             <img src="../img/index-img/32.png" alt=""/>
+             <img src="../img/index-img/34.png" alt=""/>
+             <img src="../img/index-img/40.png" alt=""/>
+         </div>
+    </div>
+    <!-- 图片第三层-->
+     <div class="img_three">
+         <div class="img_two_p">
+             <p class="text-center">ART TOPICS</p>
+             <p class="text-center"><span class="color_span">【</span>艺术专题<span class="color_span">】</span></p>
+         </div>
+          <div class="img_three_show">
+              <img src="../img/index-img/49.png" alt=""/>
+              <img src="../img/index-img/51.png" alt=""/>
+              <img src="../img/index-img/53.png" alt=""/>
+              <img src="../img/index-img/55.png" alt=""/>
+          </div>
+         <!-- 图片第四层-->
+     </div>
+     <div class="img_four">
+         <div class="img_two_p">
+             <p class="text-center">ART ACTIVITIES</p>
+             <p class="text-center"><span class="color_span">【</span>艺术活动<span class="color_span">】</span></p>
+         </div>
+         <div class="img_four_show">
+               <div>
+                   <img src="../img/index-img/61.png" alt=""/>
+                   <img src="../img/index-img/65.png" alt=""/>
+               </div>
+               <div>
+                   <img src="../img/index-img/63.png" alt=""/>
+               </div>
+         </div>
+     </div>
+    <!-- 第五层-->
+      <div class="img_five">
+          <table></table>
+          <div class="img_five_p">
+              <p class="text-center">ART STORE</p>
+              <p class="text-center"><span class="color_span">【</span>艺术商店<span class="color_span">】</span></p>
+          </div>
+          <div class="img_five_show">
+              <img src="../img/index-img/71.png" alt=""/>
+              <img src="../img/index-img/73.png" alt=""/>
+              <img src="../img/index-img/75.png" alt=""/>
+              <img src="../img/index-img/77.png" alt=""/>
+          </div>
+      </div>
+    <!-- 第六层-->
+      <div class="img_six">
+              <div class="img_six_p text-center">
+                  <p>为什么选择艺/WHY US</p>
+              </div>
+              <div class="img_six_show">
+                  <img src="../img/index-img/09.png" alt=""/>
+                  <img src="../img/index-img/06.png" alt=""/>
+                  <img src="../img/index-img/03.png" alt=""/>
+              </div>
+      </div>
+    <div class="public_bottom">
+        <head>
+            <link rel="stylesheet" href="../css/public_css/bottom.css"/>
+        </head>
+        <div class="public_bottom_main">
+            <div class="top">
+                <div><img src="../img/activity-img/42.png" alt=""/>艺术原创</div>
+                <div><img src="../img/activity-img/36.png" alt=""/>正品保真</div>
+                <div><img src="../img/activity-img/39.png" alt=""/>专业定价</div>
+            </div>
+            <div class="bottom1">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">帮助中心</a></li>
+                    <li class="breadcrumb-item"><a href="#">配送与验收</a></li>
+                    <li class="breadcrumb-item"><a href="#">售后服务</a></li>
+                    <li class="breadcrumb-item"><a href="#">服务协议</a></li>
+                    <li class="breadcrumb-item"><a href="#">隐私政策</a></li>
+                    <li class="breadcrumb-item"><a href="#">作品收集</a></li>
+                    <li class="breadcrumb-item"><a href="#">关于我们</a></li>
+                    <li class="breadcrumb-item"><a href="#">联系我们</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>艺版权所有 &nbsp; 2019京ICP备17033426号-1 京公网安备1101010502033416号</p>
+            </div>
+        </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

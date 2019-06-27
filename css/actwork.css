@@ -1,0 +1,25 @@
+*{margin: 0px;padding: 0px;}
+/*头部div*/
+.head{height: 79px;width:100%;}
+/*main定宽1178px*/
+.head_main{ width:1178px; height:79px;margin-left:360px;margin-top:15px;}
+ul>li{float: left;list-style: none;}
+a{text-decoration: none;}
+
+/*head_main中的div设置浮动*/
+.head_main_left,.head_main_center,.head_main_right{float: left;height: 79px;}
+/*head_main中左边div*/
+.head_main_left{width:120px;margin-right:200px;line-height: 79px;}
+/*中间div*/
+.head_main_center{width: 465px;line-height: 79px;margin-right: 120px;}
+/*右边的div*/
+.head_main_right{width: 181px;padding-top: 25px;}
+.head_main_right>input{border:none;border-bottom:1px solid #bfbfbf;padding:10px 2px;}
+.p-1{background:url("../img/activity-img/1.png") no-repeat 98% 92%;}
+.head_main_center>ul>li{margin-right: 51px;}
+.head_main_center>ul>li:nth-child(5){margin-right:0px;}
+.head_main_center>ul>li>a{font-size: 17px;color: #101010;}
+.head_main_center>ul>li>a:hover{text-decoration: none;}
+/*艺术品下面的下划线*/
+.head_main_center>ul>li:nth-child(2)>a{border-bottom: 3px solid #8d634a;width: 35px;padding-bottom: 16px;}
+
